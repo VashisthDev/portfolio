@@ -5,7 +5,7 @@
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": " The site includes useful information for every game, like the genre, platforms supported, description, member and critic ratings and reviews, ...",
+        "description": " The site includes useful information for every game, like the genre, platforms,description,critic ratings and reviews, ...",
         "sourceUrl": "https://github.com/VashisthDev/gaming-db.git",
         "previewUrl": "https://vashisthdev.github.io/gaming-db/",
         "featured": true
@@ -27,7 +27,7 @@
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "Employee Management System is a distributed application, developed to maintain the details of employees working in any organization. It maintains the information about the personal details of their employees.",
+        "description": "Employee Manager is a distributed application, developed to maintain the details of employees working in any organization.",
         "sourceUrl": "https://github.com/VashisthDev/employee-manager.git",
         "previewUrl": "https://vashisthdev.github.io/employee-manager/",
         "featured": true
@@ -38,7 +38,7 @@
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "The Zero-kaata game is for two players. One player plays X and the other plays O. The players take turns placing their marks on a grid of three-by-three cells. If a given player gets three marks in a row horizontally, vertically, or diagonally, then that player wins the game",
+        "description": "The Zero-kaata game is for two players. One player plays X and the other plays O.The players take turns placing their marks.",
         "sourceUrl": "https://github.com/VashisthDev/zero-kaata.git",
         "previewUrl": "https://vashisthdev.github.io/zero-kaata/",
         "featured": true
@@ -49,7 +49,7 @@
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "The site enables uploading of files",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "sourceUrl": "https://github.com/VashisthDev/file-upload-app.git",
         "previewUrl": "https://vashisthdev.github.io/file-upload-app/",
         "featured": false
