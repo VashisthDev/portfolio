@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Gaming Database",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/VashisthDev/gaming-db.git",
+        "previewUrl": "https://vashisthdev.github.io/gaming-db/",
+        "featured": true
+    },
+    {
+        "name": "Streaming",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/VashisthDev/video-stream-app.git",
+        "previewUrl": "https://vashisthdev.github.io/video-stream-app/",
+        "featured": true
+    },
+    {
+        "name": "Employee Manager",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/VashisthDev/employee-manager.git",
+        "previewUrl": "https://vashisthdev.github.io/employee-manager/",
+        "featured": true
+    },
+    {
+        "name": "Zero Kaata",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/VashisthDev/zero-kaata.git",
+        "previewUrl": "https://vashisthdev.github.io/zero-kaata/",
+        "featured": true
+    }
+]
