@@ -42,5 +42,16 @@
         "sourceUrl": "https://github.com/VashisthDev/zero-kaata.git",
         "previewUrl": "https://vashisthdev.github.io/zero-kaata/",
         "featured": true
+    },
+    {
+        "name": "File Upload App",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/VashisthDev/FileUploadApp.git",
+        "previewUrl": "https://vashisthdev.github.io/FileUploadApp/",
+        "featured": true
     }
 ]
