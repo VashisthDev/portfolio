@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 import { BioService } from '../../core/services/bio.service';
 
 @Component({
@@ -7,6 +8,31 @@ import { BioService } from '../../core/services/bio.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+
+  @ViewChild('ngcarousel', { static: true }) ngCarousel!: NgbCarousel;
+  ngOnInit() {}
+  // Move to specific slide
+  navigateToSlide(item: any) {
+    this.ngCarousel.select(item);
+    console.log(item);
+  }
+  // Move to previous slide
+  getToPrev() {
+    this.ngCarousel.prev();
+  }
+  // Move to next slide
+  goToNext() {
+    this.ngCarousel.next();
+  }
+  // Pause slide
+  stopCarousel() {
+    this.ngCarousel.pause();
+  }
+  // Restart carousel
+  restartCarousel() {
+    this.ngCarousel.cycle();
+  }
+
   
   bio$ = this.bioService.getBio();
 
@@ -17,8 +43,5 @@ export class AboutComponent implements OnInit {
 
 
   constructor(private bioService: BioService) { }
-
-  ngOnInit(): void {
-  }
 
 }

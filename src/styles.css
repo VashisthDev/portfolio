@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 html, body {
     width: 100%;
     height: 100%;
@@ -7,8 +9,6 @@ html, body {
 body {
     font-family: 'Nunito', Arial, Verdana, Geneva, Tahoma, sans-serif;
     background: white;
-    background-image: radial-gradient(lightgray 5.5%, transparent 0);
-    background-size: 30px 30px;
 }
 
 .vw-90 {

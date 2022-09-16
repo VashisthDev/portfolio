@@ -1,15 +1,99 @@
-.vw-20 {
-    width: 20vw;
-}
 
-.project-card {
-    width: 290px;
-    height: 250px;
-}
+  .games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
 
-.project-title {
-    white-space: nowrap;
+.game {
+    width: 280px;
+    margin: 10px;
+    height: 330px;
     overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 20ch;
+    border-radius: 5px;
+    background-color: #141c3a;
+    box-shadow: 4px 3px 8px 0px rgb( 245 245 245/ 22%);
+    transition-duration: 0.3s;
+    cursor: pointer;}
+  
+    .game:hover {
+      box-shadow: 4px 3px 11px 6px rgb(245 245 245 / 46%);
+      transform: translateY(-3px);
+    }
+  
+    .game-thumb-container {
+      background-color: #000;
+      position: relative;
+      height: 172px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .game-thumbnail {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      height: 172px;
+    }
+  
+    .game-description {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 157px;
+    }
+  
+    .game-name {
+      color: white;
+      font-weight: 700;
+      font-size: 22px;
+      margin-bottom: 20px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  
+    .game-platforms {
+      display: flex;
+      color: white;
+    }
+  
+    .game-platform {
+      width: 20px;
+      margin-right: 10px;
+    }
+
+.flex-column{
+    background-color: #6E07F3;
+}
+
+h1{
+    color: white;
+    
+}
+
+.btn{
+  background-color: transparent;
+  border-color: #5BE9B9;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+a{
+  color: white;
+}
+
+.btn:hover{
+  background-color: #5BE9B9;
+  border-color: transparent;
+  color: #141c3a;
+}
+
+.mt-3{
+  margin-bottom: 20px;
 }
