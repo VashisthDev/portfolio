@@ -29,9 +29,9 @@ export class SkillsComponent implements OnInit {
       rating: 60,
     },
     {
-      name: 'C++',
+      name: 'MongoDB',
       level: 'Intermidiate',
-      rating: 70,
+      rating: 60,
     },
   ];
   constructor() {}
