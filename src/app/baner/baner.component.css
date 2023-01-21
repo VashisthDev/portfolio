@@ -2,7 +2,7 @@
 :host {
     display: block;
     padding: 4rem 2rem 6rem;
-    background-color: var(--dark-gray);
+    background-image: linear-gradient(to bottom ,#212121, #212121 , #263238, #263238);
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
 
@@ -60,7 +60,7 @@
     width: 100%;
     bottom: 0%;
     position: absolute;
-    background-image: linear-gradient(to right ,#3E5151, #DECBA4, #3E5151);
+    background-image: linear-gradient(to right ,#263238, #DECBA4, #263238);
     clip-path: inset(0 round 50% 0 0);
 }
 
