@@ -15,7 +15,7 @@ export class WorkExperienceComponent implements OnInit {
       duration: 'Nov 2022 - Jan 2023',
       description: [
         'Worked to develop the official website for the firm',
-        'Worked on different technologies such as (Angular, Bootstrap)',
+        'Worked on different technologies such as (Angular,Material)',
       ],
     },
   ];
