@@ -1,6 +1,6 @@
 :host {
     display: block;
-    background-color: var(--black);
+    background-image: linear-gradient(to bottom ,#212121, #212121 ,  #263238, #212121,  #263238);
 }
 
 :host.pc .container {
